@@ -1,0 +1,77 @@
+@font-face {
+   font-family: 'Queen Serif';
+   src: url(..Acc\QueenSerifFree-ax6qJ.otf) format('trutype');
+}
+
+body {
+    background-image: url(../Images/Flower_Background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    min-height: 100vh;
+}
+
+.logo:hover {
+   cursor: pointer;
+   background-color: rgba(137, 43, 226, 0.571);
+}
+
+.tab {
+   display: flex;
+   justify-content: space-evenly;
+   position: fixed;
+   width: 100%;
+   overflow: hidden;
+   background-size: 100%;
+   background-color:rgba(0, 0, 0, 0.871);
+}
+
+.tabLinks {
+   color: white;
+   background: none;
+   border: none;
+   font-family: 'Queen Serif';
+   font-size: 2rem;
+}
+
+.tabLinks:hover {
+   cursor: pointer;
+   background-color: rgba(137, 43, 226, 0.571);
+}
+
+.logos {
+   display: flex;
+   justify-content: center;
+   position: fixed;
+   bottom: 0;
+   width: 100%;
+   background-size: 100%;
+   background-color:rgba(0, 0, 0, 0.871);
+}
+
+.logo {
+   padding-left: 0.5rem;
+   padding-right: 0.5rem;
+   background: none;
+   border: none;
+}
+
+.tabHeading {
+   display: flex;
+   justify-content: space-evenly;
+   color: white;
+   padding-top: 5rem;
+   font-family: 'Queen Serif';
+   margin: 0;
+   letter-spacing: 2vw;
+}
+
+.tabContent {
+   animation: fadeEffect 1.5s;;
+}
+
+@KeyFrames fadeEffect {
+   from {opacity: 0;}
+   to {opacity: 1;}
+}

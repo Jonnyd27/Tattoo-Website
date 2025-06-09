@@ -1,0 +1,59 @@
+/* .bookingDiv {
+    margin-top: 5rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    background-color:rgba(12, 27, 14, 0.667);
+    border: 1rem dotted rgb(21, 48, 24);
+    padding: 0.5rem;
+}
+
+.formInput {
+    display: flex;
+    justify-content: left;
+    padding-bottom: 0.5rem;
+}
+
+.bookingForm {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.formLabel {
+    display: flex;
+    justify-content: center;
+}
+
+.daysLabel {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.availableDays {
+    border: 0.1rem solid rgb(78, 12, 101);
+    background-color: rgba(77, 12, 101, 0.53);
+} */
+
+.bookDiv {
+    display: flex;
+    justify-content: center;
+    color: white;
+    align-items: center;
+    padding-top: 9rem;
+    margin: 0;
+}
+
+.bookButton {
+    background-color:rgba(27, 12, 25, 0.667);
+    border: 1rem double rgb(21, 48, 24);
+    border-radius: 5rem;
+    color: white;
+    width: 20rem;
+    height: 20rem;
+}
+
+.bookButton:hover {
+    cursor: pointer;
+    background-color: rgba(137, 43, 226, 0.571);
+}

@@ -1,0 +1,24 @@
+.portfolio {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-size: 100%;
+    background-color:rgba(27, 12, 25, 0.667);
+    border: 1rem double rgb(21, 48, 24);
+    border-radius: 5rem;
+    margin-top: 0.5rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+
+}
+
+.artWork {
+    border: 1rem double rgb(21, 48, 24);
+    border-radius: 5rem;
+    margin: 2rem;
+}
+
+.artWork:hover {
+    background-color: rgba(137, 43, 226, 0.571);
+    cursor: pointer;
+}

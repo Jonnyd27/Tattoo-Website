@@ -1,0 +1,44 @@
+.aboutContent {
+   background-size: 100%;
+   background-color:rgba(27, 12, 25, 0.667);
+   border: 1rem double rgb(21, 48, 24);
+   border-radius: 10rem;
+   margin-top: 0.5rem;
+   margin-left: 3rem;
+   margin-right: 3rem;
+}
+
+.profilePicture {
+   display: flex;
+   justify-content: center;
+   padding-top: 3rem;
+}
+
+.profilePicture img {
+   border: none; /* No default border */
+   box-shadow: 0 0 0 10px rgb(21, 48, 24), 0 0 0 15px rgb(9, 21, 10); /* Layered border effect */
+   border-radius: 50%; /* Circular border for round images (optional) */
+}
+
+.description {
+   display: flex;
+   justify-content: space-evenly;
+   color: white;
+   padding-top: 3rem;
+   font-size: 2rem;
+   font-family: 'Queen Serif';
+   margin: 0;
+   padding-left: 2rem;
+   padding-right: 2rem;
+   padding-bottom: 5rem;
+}
+
+.aboutDiv {
+   display: flex;
+   justify-content: center;
+}
+
+.formInput {
+   display: flex;
+   justify-content: center;
+}

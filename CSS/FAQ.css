@@ -1,0 +1,20 @@
+.faqDiv {
+    background-size: 100%;
+    background-color:rgba(27, 12, 25, 0.667);
+    border: 1rem double rgb(21, 48, 24);
+    border-radius: 5rem;
+    margin-top: 2rem;;
+}
+
+h2 {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}

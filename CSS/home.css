@@ -1,0 +1,14 @@
+@font-face {
+   font-family: 'Prida02calt';
+   src: url(..Acc\Prida02calt-j3zO.otf) format('truetype');
+}
+
+.welcomeTitle {
+   display: flex;
+   justify-content: center;
+   color: white;
+   align-items: center;
+   padding-top: 18rem;
+   font-family: 'Prida02calt';
+   margin: 0;
+}

@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <title>Amelia's Website</title>
+    <link rel="stylesheet" href="CSS\home.css">
+    <link rel="stylesheet" href="CSS\styles.css">
+    <link rel="stylesheet" href="CSS\about.css">
+    <link rel="stylesheet" href="CSS/portfolio.css">
+    <link rel="stylesheet" href="CSS/book.css">
+    <link rel="stylesheet" href="CSS/FAQ.css">
+    <script src="script.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="Jonathan Edwards"/>
+    <meta name="language" content="english"/>
+    <meta charset="UTF-8"/>
+</head>
+    <body>
+        <header>
+            <div class="tab">
+                <!-- This is the default home page, which has script attached to it, clicking this button on page load 
+                to show it as the default content -->
+                <button class="tabLinks" onclick="openTab(event, 'Home')" id="defaultOpen">Home</button>
+                <!-- The rest of the button tabs that allow switching different tabs while staying on the same page. -->
+                <button class="tabLinks" onclick="openTab(event, 'About')">About</button>
+                <button class="tabLinks" onclick="openTab(event, 'Portfolio')">Portfolio</button>
+                <button class="tabLinks" onclick="openTab(event, 'Book')">Booking</button>
+                <button class="tabLinks" onclick="openTab(event, 'FAQ')">FAQ</button>
+            </div>
+        </header>
+        <main>
+            <!-- Each div with the class tabContent will be shown by itself when the matching nav button on the top is pressed.
+            The main tab that is shown initially is the home tab. -->
+            <div id="Home" class="tabContent homeContent">
+                <h1 class="welcomeTitle" style="font-size: 12vw">Amelia Edwards</h1>
+                <h2 class="tabHeading" style="font-size: 8vw">TATTOOS</h2>
+            </div>
+
+            <div id="About" class="tabContent aboutDiv">
+                <h1 class="tabHeading" style="font-size: 8vw"></h1>
+                <div class="aboutContent">
+                    <div class="profilePicture">
+                        <img src="./Images/1000008521.jpg" width="300" height="400">
+                    </div>
+                    <p class="description">Hi, I’m Amelia Edwards, a Realism Tattoo Artist based in the beautiful Olympia, Washington.
+I began my tattooing journey in 2018, and quickly fell in love with the art of bringing ideas to life through skin. Realism is my style of choice; there’s something so amazing about capturing details and turning a vision into a piece of art that truly feels alive.
+I am a loving wife, with a husband who supports me unconditionally, and a proud mom to two incredibly talented kids who inspire me every day. Outside of tattooing, I’m always pursuing something creative, whether it’s drawing, crocheting, or learning a new skill. Creativity is a constant in my life.
+I’m known for being easy to talk to, deeply caring, and genuinely invested in making sure every client walks away with a tattoo they’re proud of. Maybe it’s your first piece or your tenth? I’m here to bring your ideas to life with precision and dedication.
+                    </p>
+                </div>
+            </div>
+
+            <div id="Portfolio" class="tabContent">
+                <h1 class="tabHeading" style="font-size: 8vw"></h1>
+                <div class="portfolio">
+                    <img class="artWork" src="./Images/Floral1.jpg" width="300" height="400" onclick="enlargeImg()" id="img1">
+                    <img class="artWork" src="./Images/Floral2.png" width="300" height="400">
+                    <img class="artWork" src="./Images/Floral3.jpg" width="300" height="400">
+                    <img class="artWork" src="./Images/Floral4.png" width="300" height="400">
+                    <img class="artWork" src="./Images/Floral1.jpg" width="300" height="400">
+                    <img class="artWork" src="./Images/Floral2.png" width="300" height="400">
+                    <img class="artWork" src="./Images/Floral3.jpg" width="300" height="400">
+                    <img class="artWork" src="./Images/Floral4.png" width="300" height="400">
+                    <img class="artWork" src="./Images/Floral1.jpg" width="300" height="400">
+                    <img class="artWork" src="./Images/Floral2.png" width="300" height="400">
+                    <img class="artWork" src="./Images/Floral3.jpg" width="300" height="400">
+                    <img class="artWork" src="./Images/Floral4.png" width="300" height="400">
+                    <img class="artWork" src="./Images/Floral1.jpg" width="300" height="400">
+                    <img class="artWork" src="./Images/Floral2.png" width="300" height="400">
+                    <img class="artWork" src="./Images/Floral3.jpg" width="300" height="400">
+                    <img class="artWork" src="./Images/Floral4.png" width="300" height="400">
+                </div>
+            </div>
+
+            <div id="Book" class="tabContent">
+                <h1 class="tabHeading" style="font-size: 8vw"></h1>
+                <div class="bookDiv">
+                    <button class="bookButton" onclick="window.open('https://form.jotform.com/222345806904052')">Book Now!</button>
+                </div>
+                <!-- <div class="bookingDiv">
+                    <form class="bookingForm" action="mailto:jonathan.d.edwards27@outlook.com" method="post" enctype="multipart/form-data">
+                        <div class="formInput">
+                            <label class="formLabel" style="color: aliceblue; font-size: 2vw;">
+                                Full name: 
+                                <input type="text"  style="font-size: 2vw;" required>
+                            </label>
+                        </div>
+
+                        <div class="formInput">
+                                <label style="color: aliceblue; font-size: 2vw;"">
+                                    Prefered Pronouns:  
+                                    <input type="text"  style="font-size: 2vw;">
+                                </label>
+                        </div>
+
+                        <div class="formInput">
+                            <label class="formLabel" style="color: aliceblue; font-size: 2vw;"">
+                                Email: 
+                                <input type="email" required style="font-size: 2vw;">
+                            </label>
+                        </div>
+
+                        <div class="formInput">
+                            <label class="formLabel" style="color: aliceblue; font-size: 2vw;"">
+                                Phone number: 
+                                <input type="number" required style="font-size: 2vw;">
+                            </label>
+                        </div>
+
+                        <div class="formInput">
+                            <label class="formLabel" style="color: aliceblue; font-size: 2vw;"">
+                                Describe your tattoo idea: 
+                                <input type="text" required style="font-size: 2vw;">
+                            </label>
+                        </div>
+
+                        <div class="formInput">
+                            <label class="formLabel" style="color: aliceblue; font-size: 2vw;"">
+                                Traveling: 
+                                <input type="checkbox">
+                            </label>
+                        </div>
+
+                        <div class="formInput">
+                            <label class="daysLabel" style="color: aliceblue; font-size: 2vw;"">
+                                Available days:
+                                <label class="availableDays">
+                                    <input type="checkbox" required>
+                                    Monday
+                                </label>
+
+                                <label class="availableDays">
+                                    <input type="checkbox" required>
+                                    Tuesday
+                                </label>
+
+                                <label class="availableDays">
+                                    <input type="checkbox" required>
+                                    Wednesday
+                                </label>
+
+                                <label class="availableDays">
+                                    <input type="checkbox" required>
+                                    Thursday
+                                </label>
+
+                                <label class="availableDays">
+                                    <input type="checkbox" required>
+                                    Friday
+                                </label>
+
+                                <label class="availableDays">
+                                    <input type="checkbox" required>
+                                    Saturday
+                                </label>
+
+                                <label class="availableDays">
+                                    <input type="checkbox" required>
+                                    Sunday
+                                </label>
+
+                            </label>
+                        </div>
+
+                        <div class="formInput">
+                            <label class="formLabel" style="color: aliceblue; font-size: 2vw;">
+                                Upload some reference photos
+                                <input type="file" style="font-size: 2vw;" accept="Image/*" >
+                            </label>
+                        </div>
+
+                        <button type="submit">Press me baby boi</button>
+                    </form>
+                </div> -->
+            </div>
+
+            <div id="FAQ" class="tabContent">
+                <h1 class="tabHeading" style="font-size: 8vw"></h1>
+                <div class="faqDiv">
+                    <h2>Is there anything I need to do before my tattoo appointment?</h2>
+                    <p>Yes! You should eat throughout the day and at least a decent size meal 1 hour before your apppointment. Also, avoid any exposure to the sun or harmful things for the area of skin where you want your tattoo. Please do not put any numbing sprays or lotions prior to your appointment.</p>
+                </div>
+                <div class="faqDiv">
+                    <h2>Is there anything I need to do before my tattoo appointment?</h2>
+                    <p>Yes! You should eat throughout the day and at least a decent size meal 1 hour before your apppointment. Also, avoid any exposure to the sun or harmful things for the area of skin where you want your tattoo. Please do not put any numbing sprays or lotions prior to your appointment.</p>
+                </div>
+                <div class="faqDiv">
+                    <h2>Is there anything I need to do before my tattoo appointment?</h2>
+                    <p>Yes! You should eat throughout the day and at least a decent size meal 1 hour before your apppointment. Also, avoid any exposure to the sun or harmful things for the area of skin where you want your tattoo. Please do not put any numbing sprays or lotions prior to your appointment.</p>
+                </div>
+                <div class="faqDiv">
+                    <h2>Is there anything I need to do before my tattoo appointment?</h2>
+                    <p>Yes! You should eat throughout the day and at least a decent size meal 1 hour before your apppointment. Also, avoid any exposure to the sun or harmful things for the area of skin where you want your tattoo. Please do not put any numbing sprays or lotions prior to your appointment.</p>
+                </div>
+                <div class="faqDiv">
+                    <h2>Is there anything I need to do before my tattoo appointment?</h2>
+                    <p>Yes! You should eat throughout the day and at least a decent size meal 1 hour before your apppointment. Also, avoid any exposure to the sun or harmful things for the area of skin where you want your tattoo. Please do not put any numbing sprays or lotions prior to your appointment.</p>
+                </div>
+                <div class="faqDiv">
+                    <h2>Is there anything I need to do before my tattoo appointment?</h2>
+                    <p>Yes! You should eat throughout the day and at least a decent size meal 1 hour before your apppointment. Also, avoid any exposure to the sun or harmful things for the area of skin where you want your tattoo. Please do not put any numbing sprays or lotions prior to your appointment.</p>
+                </div>
+            </div>
+
+        </main>
+        <footer>
+            <div class="logos">
+                <button class="logo" onclick="window.open('https://www.instagram.com/ameliaedwardstattoos/')" >
+                    <img src="./Images/Instagram_Glyph_Gradient.png" width="30" height="30">
+                </button>
+                <button class="logo" onclick="window.open('https://www.facebook.com/ameliaedwardstattoos')">
+                    <img src="./Images/Facebook_Logo_Secondary.png" width="30" height="30">
+                </button>
+                <button class="logo" onclick="window.open('https://www.tiktok.com/@ameliaedwardstattoos')">
+                    <img src="./Images/tik-tok-logo-png-80f7.png" width="30" height="30">
+                </button>
+            </div>
+        </footer>
+        <script>
+            document.getElementById("defaultOpen").click();
+        </script>
+    </body>
+</html>
