@@ -68,7 +68,8 @@ body {
 }
 
 .tabContent {
-   animation: fadeEffect 1.5s;;
+   animation: fadeEffect 1.5s;
+   padding-bottom: 3rem;
 }
 
 @KeyFrames fadeEffect {
