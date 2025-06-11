@@ -49,8 +49,9 @@
     border: 1rem double rgb(21, 48, 24);
     border-radius: 5rem;
     color: white;
-    width: 20rem;
-    height: 20rem;
+    font-size: 3vw;
+    width: 20vw;
+    height: 20vw;
 }
 
 .bookButton:hover {

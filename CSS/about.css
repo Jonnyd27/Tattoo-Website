@@ -18,16 +18,16 @@
 
 .profilePicture img {
    border: none; /* No default border */
-   box-shadow: 0 0 0 10px rgb(21, 48, 24), 0 0 0 15px rgb(9, 21, 10); /* Layered border effect */
+   box-shadow: 0 0 0 0.5rem rgb(21, 48, 24), 0 0 0 1rem rgb(9, 21, 10); /* Layered border effect */
    border-radius: 50%; /* Circular border for round images (optional) */
 }
 
 .description {
    display: flex;
-   justify-content: space-evenly;
+   justify-content: center;
    color: white;
    padding-top: 3rem;
-   font-size: 2rem;
+   font-size: 2vw;
    font-family: 'Queen Serif';
    margin: 0;
    padding-left: 2rem;
