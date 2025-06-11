@@ -1,11 +1,13 @@
 .aboutContent {
+   display: flex;
+   flex-direction: column;
    background-size: 100%;
    background-color:rgba(27, 12, 25, 0.667);
    border: 1rem double rgb(21, 48, 24);
    border-radius: 10rem;
    margin-top: 0.5rem;
-   margin-left: 3rem;
-   margin-right: 3rem;
+   margin-left: 2rem;
+   margin-right: 2rem;
 }
 
 .profilePicture {

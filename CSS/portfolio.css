@@ -7,15 +7,15 @@
     border: 1rem double rgb(21, 48, 24);
     border-radius: 5rem;
     margin-top: 0.5rem;
-    margin-left: 3rem;
-    margin-right: 3rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
 
 }
 
 .artWork {
     border: 1rem double rgb(21, 48, 24);
     border-radius: 5rem;
-    margin: 2rem;
+    margin: 1rem;
 }
 
 .artWork:hover {
