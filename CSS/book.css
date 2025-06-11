@@ -38,6 +38,7 @@
 .bookDiv {
     display: flex;
     justify-content: center;
+    width: 100vw;
     color: white;
     align-items: center;
     padding-top: 9rem;

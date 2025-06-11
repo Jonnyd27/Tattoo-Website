@@ -3,13 +3,17 @@
    src: url(..Acc\QueenSerifFree-ax6qJ.otf) format('trutype');
 }
 
+html, body {
+   height: 100vh;
+}
+
 body {
     background-image: url(../Images/Flower_Background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
-    min-height: 100vh;
+    position: absolute;
 }
 
 .logo:hover {
