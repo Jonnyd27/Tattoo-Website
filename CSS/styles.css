@@ -1,3 +1,9 @@
+@media (max-width: 768px) {
+   body {
+      font-size: 4rem;
+   }
+}
+
 @font-face {
    font-family: 'Queen Serif';
    src: url(..Acc\QueenSerifFree-ax6qJ.otf) format('trutype');
