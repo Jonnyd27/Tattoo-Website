@@ -1,5 +1,5 @@
-@media (max-width: 768px) {
-   body {
+@media (max-width: 500px) {
+   body html {
       font-size: 4rem;
    }
 }
